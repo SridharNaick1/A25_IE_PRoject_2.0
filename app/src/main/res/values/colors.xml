@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundColor">#f8f3eb</color>
+    <color name="secondBackground">#50d890</color>
+    <color name="colorAccent">#E43F5A</color>
+    <color name="mainText">#FFE2E4E6</color>
+    <color name="color1">#4C7E95</color>
+    <color name="color2">#5c94ad</color>
+    <color name="color3">#76b8d6</color>
+    <color name="color4">#5c94ad</color>
+    <color name="color5">#4C7E95</color>
+    <color name="softBackground">#f8f3eb</color>
+    <color name="color6">#00DEA208</color>
+    <color name="navigationColor">#CBB37404</color>
+
+    <color name="test_main_background">#effffb</color>
+    <color name="test_second_background">#50d890</color>
+    <color name="test_text_color">#272727</color>
+    <color name="test_button_background">#F32C9028</color>
+
+
+
+</resources>

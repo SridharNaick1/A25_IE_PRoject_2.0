@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="50dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:id="@+id/cardView"
+
+        >
+
+        <TextView
+            android:text="Your highest carbon emission in a single day."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:padding="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+                <!-- Highest carbon emission - appliance -->
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/applianceOption"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/second_page_report" />
+
+
+                    <TextView
+                        android:id="@+id/appliance_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:gravity="center_horizontal"
+                        android:fontFamily="@font/segoe2"
+                        android:padding="10dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        card_view:text="@tools:sample/lorem" />
+
+                    <TextView
+                        android:id="@+id/highest_appliance"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingLeft="35dp"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/segoe2"
+                        card_view:text="@tools:sample/lorem" />
+
+                </LinearLayout>
+
+                <!-- Highest carbon emission - food -->
+                <LinearLayout
+                    android:layout_width="169dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/foodOption"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/second_page_report"
+                        android:contentDescription="TODO" />
+
+                    <TextView
+                        android:id="@+id/food_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="55dp"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:fontFamily="@font/segoe2"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        card_view:text="@tools:sample/cities"
+                        android:layout_marginStart="55dp" />
+
+                    <TextView
+                        android:id="@+id/highest_food"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:paddingLeft="35dp"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/segoe2"
+                        card_view:text="@tools:sample/lorem" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <!-- Highest carbon emission - transportation -->
+
+                <LinearLayout
+                    android:layout_width="160dp"
+                    android:layout_height="200dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/transportationOption"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/second_page_report" />
+
+                    <TextView
+                        android:id="@+id/transportation_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:fontFamily="@font/segoe2"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        card_view:text="@tools:sample/lorem" />
+
+                    <TextView
+                        android:id="@+id/highest_transportation"
+                        android:layout_width="wrap_content"
+                        android:layout_height="36dp"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/segoe2"
+                        android:layout_marginLeft="30dp"
+                        card_view:text="@tools:sample/lorem" />
+                </LinearLayout>
+
+                <!-- Highest carbon emission - household -->
+                <LinearLayout
+                    android:layout_width="169dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/householdOption"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/second_page_report" />
+
+                    <TextView
+                        android:id="@+id/household_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:padding="10dp"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/segoe2"
+                        card_view:text="@tools:sample/cities" />
+
+                    <TextView
+                        android:id="@+id/highest_household"
+                        android:layout_width="wrap_content"
+                        android:paddingLeft="35dp"
+                        android:layout_height="50dp"
+                        android:textColor="#000000"
+                        android:fontFamily="@font/segoe2"
+                        card_view:text="@tools:sample/lorem" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/secondPageNextBtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="490dp"
+            android:fontFamily="@font/segoe2"
+            android:background="@drawable/round_button"
+            android:text="Finish" />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

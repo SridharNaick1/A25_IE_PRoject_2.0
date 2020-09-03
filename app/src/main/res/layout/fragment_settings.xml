@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/test_main_background"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/userInfo"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_button"
+        android:drawableLeft="@drawable/ic_person4"
+        android:text="@string/user_info"
+        android:paddingLeft="20dp"
+        android:textColor="@color/test_text_color"
+        android:drawableStart="@drawable/ic_person4"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/monthlyReportBtn"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:paddingLeft="25dp"
+        android:background="@drawable/shape_button"
+        android:drawableLeft="@drawable/ic_report4"
+        android:text="@string/monthly_report"
+        android:textColor="@color/test_text_color"
+        android:drawableStart="@drawable/ic_report4"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:id="@+id/settingsSignOutBtn"
+        android:textColor="@color/test_text_color"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_signout4"
+        android:background="@drawable/shape_button"
+        android:layout_marginTop="250dp"
+        android:text="@string/sign_out_button"
+        android:paddingLeft="25dp"
+        android:drawableStart="@drawable/ic_signout4"
+        android:paddingStart="20dp"
+        tools:ignore="RtlSymmetry" />
+</LinearLayout>

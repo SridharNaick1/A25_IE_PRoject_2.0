@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/test_main_background"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp">
+
+        <Button
+            android:id="@+id/applianceOption"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#00DEA208"
+            android:fontFamily="@font/segoe2"
+            android:text="@string/appliance"
+            android:drawableTop="@drawable/ic_appliance4"
+            android:textColor="@color/test_text_color"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/foodOption"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/food"
+            android:textSize="12dp"
+            android:background="#00DEA208"
+            android:drawableTop="@drawable/ic_food4"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/segoe2"
+            android:textColor="@color/test_text_color"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/transportationOption"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#00DEA208"
+            android:drawableTop="@drawable/ic_transportation4"
+            android:text="@string/transportation"
+            android:textSize="12dp"
+            android:fontFamily="@font/segoe2"
+            android:textColor="@color/test_text_color"
+            />
+        <Button
+            android:id="@+id/householdOption"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/household"
+            android:textSize="12dp"
+            android:background="#00DEA208"
+            android:drawableTop="@drawable/ic_household4"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/segoe2"
+            android:textColor="@color/test_text_color"
+            />
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/detailUsage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/segoe2"
+        android:text="@string/detail_usage"
+        android:textAlignment="center"
+        android:textColor="@color/test_text_color"
+        android:textSize="18sp"
+        android:gravity="center_horizontal" />
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="60dp" />
+
+
+</LinearLayout>

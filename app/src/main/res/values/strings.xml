@@ -1,0 +1,110 @@
+<resources>
+    <string name="title_home">Home</string>
+    <string name="title_calculator">Calculator</string>
+    <string name="title_classification">Dump it now</string>
+    <string name="title_settings">Profile</string>
+    <string name="title_general">Learn</string>
+
+
+    <!-- Strings for home confirmation-->
+    <string name="setCollection">Set Collection Day</string>
+
+    <!-- Strings for pop up confirmation-->
+    <string name="confirm_title">Success!</string>
+    <string name="confirm_content">Successfully added to your monthly usage. View the updated usage in your home page.</string>
+    <string name="confirm_button">Ok</string>
+
+
+    <!-- Strings for appliances. -->
+    <string name="take_photo">Take a photo</string>
+    <string name="pick_photo">Pick from gallery</string>
+
+    <!-- Strings for popup window. -->
+    <string name="popup_update">Add to total usage</string>
+    <string name="app_name">Carbon Centric</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Near Zero</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Towards Zero Waste</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello">Hey There!</string>
+    <string name="weekly_carbon">Monthly average carbon emission per citizen in Victoria is : 1500 Kgs</string>
+    <string name="update_carbon">Update your carbon emission goal:</string>
+    <string name="enter_carbon">Enter you calorie goal for this week</string>
+    <string name="Update">Update</string>
+    <string name="actual_usage">Actual usage for this week is: </string>
+    <string name="choose_appliance">Pick a category to calculate your footprint</string>
+    <string name="choose_time">Choose the time of use</string>
+    <string name="detail_usage">Add your daily usage and view your detailed carbon emissions below</string>
+    <string name="title_setCollectionDay">Set Garbage Collection Day</string>
+    <string name="popup_collection_day_confirm">Confirm</string>
+    <string name="most_carbon_day">Highest carbon emission</string>
+    <string name="lowest_carbon_day">Lowest carbon emission</string>
+    <string name="food_input_hint">e.g. 2.8</string>
+
+
+<string name="wasteGuide">"Confused between bins? Click a Photo or pick one from your gallery  and we'll sort it out for you!"</string>
+
+
+
+
+    <!-- Strings for carbon calculator. -->
+    <string name="appliance">Appliance</string>
+    <string name="food">Food</string>
+    <string name="household">Household</string>
+    <string name="transportation">Transportation</string>
+
+
+
+    <!-- Strings for general page-->
+    <string name="viewtwo">Here are few simple ways to minimize your carbon footprint through dietary and lifestyle choices.</string>
+    <string name="travel">With a bit of planning, critical thinking, and open-mindedness, you can minimize the negative environmental impacts of your travels and experience a more authentic side of your destination. Here’s how:</string>
+    <string name="clothing">Live a green and sustainable life by adopting some quick changes and become a responsible citizen who does his/her bit towards the environment. here are fashion Hacks That Help You Go Green And Reduce Your Carbon Footprint</string>
+   <string name="homeC">Saving energy does not just help you save money, it makes a big difference to our environment and our future.</string>
+    <string name="tilteEmp"> </string>
+    <string name="menu_home">Home</string>
+    <string name="menu_appliances">Carbon Footprint</string>
+    <string name="menu_wasteClassification">Waste Classification</string>
+    <string name="FailDetection">Fail to detect image.</string>
+
+    <string name="swipeopt"> \u003c\u003c swipe for other categories \u003e\u003e</string>
+
+    <!-- Strings for settings. -->
+    <string name="sign_out_button">Sign Out</string>
+    <string name="monthly_report">Monthly Report</string>
+    <string name="sign_in">Sign In</string>
+    <string name="user_info">User Info</string>
+
+    <!-- Strings for login/sign up page.-->
+    <string name="give_user_name">Enter your name</string>
+    <string name="give_user_email">Enter your email address</string>
+    <string name="give_user_password">Enter your password</string>
+    <string name="give_user_password_confirm">Confirm your password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="welcomeMessage">Welcome</string>
+    <string name="log_in">Log in</string>
+    <string name="enter_your_email">Please enter valid email address</string>
+    <string name="enter_your_name">Please enter your name</string>
+    <string name="user_exist">User exists</string>
+    <string name="password_length">The password must be greater than 6 digits</string>
+    <string name="password_confirm">Please check your password</string>
+    <string name="user_info_not_correct">Email or Password is incorrect</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

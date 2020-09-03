@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/test_main_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:clipToPadding="false"
+        android:fontFamily="@font/segoe2"
+        android:foregroundGravity="center"
+        android:overScrollMode="never">
+    </androidx.viewpager.widget.ViewPager>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="13sp"
+            android:textAlignment="center"
+            android:background="@drawable/round"
+            android:gravity="center_horizontal"
+            android:textColor="@color/test_text_color"
+            android:textFontWeight="700"
+            android:fontFamily="@font/segoe2"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="60dp"
+            android:text="@string/swipeopt">
+
+        </TextView>
+
+
+
+
+</RelativeLayout>
